@@ -27,9 +27,7 @@ class MainNavigation extends React.Component {
           }
     }
 
-    componentDidMount = () => {
 
-    }
 
     
 

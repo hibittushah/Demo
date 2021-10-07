@@ -8,4 +8,7 @@ export const login = createReducer({}, {
     [types.LIST_RESPONSE](state, action) {
         return ({ ...state, listData: action.data });
     }, 
+    [types.CURRENCY_LIST_RESPONSE](state, action) {
+        return ({ ...state, list: action.data });
+    }, 
 })
